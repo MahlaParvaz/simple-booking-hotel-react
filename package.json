@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "server":"json-server --watch server/db.json --port 5000 --delay 300",
+    "server": "json-server --watch server/db.json --port 5000 --delay 300",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -19,6 +19,7 @@
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.11.0",
+    "react-router-dom": "^6.18.0",
     "toastr": "^2.1.4"
   },
   "devDependencies": {
