@@ -9,7 +9,7 @@ import { format } from 'date-fns';
 import { createSearchParams, useNavigate, useSearchParams } from 'react-router-dom';
 
 function Header() {
-  const [destination, setDestination] = useState('');
+  const [destination, setDestination] = useState(searchParams.get('destination') || '');
   const [openOptions, setOpenOptions] = useState(false);
   const [options, setOptions] = useState({
     adult: 1,
