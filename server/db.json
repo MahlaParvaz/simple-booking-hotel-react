@@ -1530,6 +1530,33 @@
       "longitude": "17.51414648420252",
       "host_location": "AjkaHungary",
       "id": 26
+    },
+    {
+      "cityName": "Prestbury",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "countryCode": "GB",
+      "latitude": "53.31786708191524",
+      "longitude": "-2.166488829214608",
+      "host_location": "PrestburyUnited Kingdom of Great Britain and Northern Ireland (the)",
+      "id": 27
+    },
+    {
+      "cityName": "La Fermete",
+      "country": "France",
+      "countryCode": "FR",
+      "latitude": "46.93649125673862",
+      "longitude": "3.306329283337233",
+      "host_location": "La FermeteFrance",
+      "id": 29
+    },
+    {
+      "cityName": "Ouled Sassi",
+      "country": "Algeria",
+      "countryCode": "DZ",
+      "latitude": "33.794524230657345",
+      "longitude": "4.7522561061624735",
+      "host_location": "Ouled SassiAlgeria",
+      "id": 30
     }
   ]
 }
