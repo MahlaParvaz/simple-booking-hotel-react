@@ -10,14 +10,11 @@ import {
 } from 'react-leaflet';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import useGeoLocation from '../../Hooks/useGeoLocation';
+import useUrlLocation from '../../Hooks/useUrlLocation';
 
 function Map({ markerLocations }) {
-  // const { isLoading, hotels } = useHotels();
   const [mapCenter, setMapCenter] = useState([50, 4]);
-  const [searchParams, setSearchParams] = useSearchParams();
-
-  const lat = searchParams.get('lat');
-  const lng = searchParams.get('lng');
+  const [lat, lng] = useUrlLocation();
 
   const {
     isLoading: isLoadingPosition,
@@ -70,7 +67,7 @@ function ChangeCenter({ position }) {
 function DetectClick() {
   const navigate = useNavigate();
   useMapEvent({
-    click: (e) => navigate(`/bookmark/add?lat${e.latlng.lat}&lat=${e.latlng.lng}`),
+    click: (e) => navigate(`/bookmark/add?lat=${e.latlng.lat}&lng=${e.latlng.lng}`),
   });
   return null;
 }
