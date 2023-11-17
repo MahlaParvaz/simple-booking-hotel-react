@@ -1325,42 +1325,6 @@
   ],
   "bookmarks": [
     {
-      "cityName": "Abalessa",
-      "country": "Algeria",
-      "countryCode": "DZ",
-      "latitude": "23.18455079512732",
-      "longitude": "3.795523257510883",
-      "host_location": "Abalessa Algeria",
-      "id": 1
-    },
-    {
-      "cityName": "Mahidasht",
-      "country": "Iran (Islamic Republic of)",
-      "countryCode": "IR",
-      "latitude": "34.32869425037187",
-      "longitude": "46.724183117022086",
-      "host_location": "Mahidasht Iran (Islamic Republic of)",
-      "id": 4
-    },
-    {
-      "cityName": "Sanandaj",
-      "country": "Iran (Islamic Republic of)",
-      "countryCode": "IR",
-      "latitude": "35.31372444726279",
-      "longitude": "47.03114358752335",
-      "host_location": "Sanandaj Iran (Islamic Republic of)",
-      "id": 5
-    },
-    {
-      "cityName": "A Dakhla Oasis",
-      "country": "Egypt",
-      "countryCode": "EG",
-      "latitude": "25.02090651422749",
-      "longitude": "29.09059588509316",
-      "host_location": "A Dakhla Oasis Egypt",
-      "id": 7
-    },
-    {
       "cityName": "Baba Kot",
       "country": "Pakistan",
       "countryCode": "PK",
@@ -1550,13 +1514,76 @@
       "id": 29
     },
     {
-      "cityName": "Ouled Sassi",
-      "country": "Algeria",
-      "countryCode": "DZ",
-      "latitude": "33.794524230657345",
-      "longitude": "4.7522561061624735",
-      "host_location": "Ouled SassiAlgeria",
+      "cityName": "Leusden",
+      "country": "Netherlands (the)",
+      "countryCode": "NL",
+      "latitude": "52.11875539530598",
+      "longitude": "5.438545249032179",
+      "host_location": "LeusdenNetherlands (the)",
       "id": 30
+    },
+    {
+      "cityName": "Nottuln",
+      "country": "Germany",
+      "countryCode": "DE",
+      "latitude": "51.88894224366608",
+      "longitude": "7.417073524823818",
+      "host_location": "NottulnGermany",
+      "id": 31
+    },
+    {
+      "cityName": "Domptail",
+      "country": "France",
+      "countryCode": "FR",
+      "latitude": "48.43015187624747",
+      "longitude": "6.603678566998365",
+      "host_location": "DomptailFrance",
+      "id": 32
+    },
+    {
+      "cityName": "Domptail",
+      "country": "France",
+      "countryCode": "FR",
+      "latitude": "48.43015187624747",
+      "longitude": "6.603678566998365",
+      "host_location": "DomptailFrance",
+      "id": 33
+    },
+    {
+      "cityName": "Torre Pallavicina",
+      "country": "Italy",
+      "countryCode": "IT",
+      "latitude": "45.45321504256354",
+      "longitude": "9.857051307278654",
+      "host_location": "Torre PallavicinaItaly",
+      "id": 34
+    },
+    {
+      "cityName": "Oualata",
+      "country": "Mauritania",
+      "countryCode": "MR",
+      "latitude": "17.682550327311812",
+      "longitude": "-8.801098917058589",
+      "host_location": "OualataMauritania",
+      "id": 35
+    },
+    {
+      "cityName": "Oualata",
+      "country": "Mauritania",
+      "countryCode": "MR",
+      "latitude": "17.682550327311812",
+      "longitude": "-8.801098917058589",
+      "host_location": "OualataMauritania",
+      "id": 36
+    },
+    {
+      "cityName": "Ilkhchi",
+      "country": "Iran (Islamic Republic of)",
+      "countryCode": "IR",
+      "latitude": "37.717175885585675",
+      "longitude": "45.51518642909466",
+      "host_location": "IlkhchiIran (Islamic Republic of)",
+      "id": 37
     }
   ]
 }
