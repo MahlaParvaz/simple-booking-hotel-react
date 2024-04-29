@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { toast } from 'react-hot-toast';
 
-export default function useFetch(url, query = '') {
+function useFetch(url, query = '') {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -25,3 +25,4 @@ export default function useFetch(url, query = '') {
 
   return { isLoading, data };
 }
+export default useFetch;

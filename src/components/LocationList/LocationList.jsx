@@ -1,4 +1,4 @@
-import useFetch from '../../hooks/useFetch';
+import useFetch from '../../Hooks/useFetch';
 import Loader from '../Loader/Loader';
 function LocationList() {
   const { data, isLoading } = useFetch('http://localhost:5000/hotels', '');

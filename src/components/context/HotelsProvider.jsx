@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import useFetch from '../../hooks/useFetch';
+import useFetch from '../../Hooks/useFetch'; 
 import axios from 'axios';
 import { toast } from 'react-hot-toast';
 
@@ -45,6 +45,7 @@ function HotelsProvider({ children }) {
     </HotelContext.Provider>
   );
 }
+
 export default HotelsProvider;
 
 export function useHotels() {
